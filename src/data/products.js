@@ -17,9 +17,9 @@ export const products = [
       "Anti-slip texture"
     ],
     gallery: [
-      "Premium white glossy Sheets in modern bathroom",
-      "Close-up of glossy tile texture and finish",
-      "Glossy Sheets installed in luxury kitchen"
+      "https://images.unsplash.com/photo-1635865165118-917ed9e20936?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1556912173-46c336c7fd55?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1556912998-c57cc6b63cd7?w=800&h=600&fit=crop"
     ],
     pricing: [
       { project: "Residential Bathroom", price: "₹42/sq ft" },
@@ -39,7 +39,7 @@ export const products = [
     color: "Natural Gray",
     price: 38,
     sqFeetPrice: "₹38/sq ft",
-    image: "Natural gray textured stone Sheets with rough finish",
+    image: "https://images.unsplash.com/photo-1595872018818-97555653a011?w=800&h=600&fit=crop",
     tags: ["texture-pro", "natural"],
     description: "Professional grade textured stone Sheets that bring natural beauty to your interiors.",
     features: [
@@ -50,9 +50,9 @@ export const products = [
       "Eco-friendly material"
     ],
     gallery: [
-      "Gray textured stone Sheets in rustic living room",
-      "Detail shot of natural stone texture pattern",
-      "Textured Sheets used in outdoor patio setting"
+      "https://images.unsplash.com/photo-1595872018818-97555653a011?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=800&h=600&fit=crop"
     ],
     pricing: [
       { project: "Residential Floor", price: "₹35/sq ft" },
@@ -72,7 +72,7 @@ export const products = [
     color: "Carrara White",
     price: 65,
     sqFeetPrice: "₹65/sq ft",
-    image: "Elegant white Carrara marble Sheets with glossy finish",
+    image: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=800&h=600&fit=crop",
     tags: ["glossy", "marble", "elite"],
     description: "Elite collection of glossy marble Sheets with authentic Carrara white patterns.",
     features: [
@@ -83,9 +83,9 @@ export const products = [
       "Premium quality"
     ],
     gallery: [
-      "Luxurious Carrara marble Sheets in elegant bathroom",
-      "Close-up of marble veining and glossy surface",
-      "Marble Sheets in high-end kitchen backsplash"
+      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1564540574836-0b8b2f2d2b0c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1556912967-74bd0a2e73e9?w=800&h=600&fit=crop"
     ],
     pricing: [
       { project: "Luxury Bathroom", price: "₹62/sq ft" },
@@ -105,7 +105,7 @@ export const products = [
     color: "Oak Brown",
     price: 42,
     sqFeetPrice: "₹42/sq ft",
-    image: "Realistic oak wood textured Sheets in warm brown",
+    image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
     tags: ["texture-pro", "wood-effect"],
     description: "Realistic wood-effect Sheets with professional grade texture and durability.",
     features: [
@@ -116,9 +116,9 @@ export const products = [
       "Warm natural look"
     ],
     gallery: [
-      "Oak wood effect Sheets in cozy living room",
-      "Detail of wood grain texture on Sheets",
-      "Wood-look Sheets in modern bedroom setting"
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1571055107559-3e67626fa8be?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=800&h=600&fit=crop"
     ],
     pricing: [
       { project: "Living Room", price: "₹40/sq ft" },
@@ -138,7 +138,7 @@ export const products = [
     color: "Deep Black",
     price: 35,
     sqFeetPrice: "₹35/sq ft",
-    image: "Sleek black glossy metro Sheets with modern finish",
+    image: "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=800&h=600&fit=crop",
     tags: ["glossy", "metro", "modern"],
     description: "Modern metro-style glossy Sheets in deep black for contemporary interiors.",
     features: [
@@ -149,9 +149,9 @@ export const products = [
       "Modern aesthetic"
     ],
     gallery: [
-      "Black glossy metro Sheets in modern kitchen",
-      "Metro Sheets arranged in herringbone pattern",
-      "Glossy black Sheets in contemporary bathroom"
+      "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1556912998-c57cc6b63cd7?w=800&h=600&fit=crop"
     ],
     pricing: [
       { project: "Kitchen Backsplash", price: "₹32/sq ft" },
@@ -171,7 +171,7 @@ export const products = [
     color: "Industrial Gray",
     price: 40,
     sqFeetPrice: "₹40/sq ft",
-    image: "Industrial gray concrete textured Sheets with raw finish",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
     tags: ["texture-pro", "concrete", "industrial"],
     description: "Industrial-style concrete textured Sheets perfect for modern and minimalist designs.",
     features: [
@@ -182,9 +182,9 @@ export const products = [
       "Low maintenance"
     ],
     gallery: [
-      "Concrete textured Sheets in industrial loft space",
-      "Close-up of concrete texture and finish",
-      "Industrial Sheets in modern office setting"
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop"
     ],
     pricing: [
       { project: "Loft Apartment", price: "₹38/sq ft" },
@@ -204,7 +204,7 @@ export const products = [
     color: "Natural White",
     price: 85,
     sqFeetPrice: "₹85/sq ft",
-    image: "Acoustic WPC ceiling panels with sound dampening properties",
+    image: "https://images.unsplash.com/photo-1581539250439-c96689b516dd?w=800&h=600&fit=crop",
     tags: ["ceiling", "acoustic", "commercial"],
     description: "Professional acoustic ceiling panels that reduce noise while providing excellent aesthetic appeal.",
     features: [
@@ -215,9 +215,9 @@ export const products = [
       "Low maintenance"
     ],
     gallery: [
-      "Acoustic ceiling panels in modern office",
-      "Close-up of WPC ceiling texture",
-      "Installation process of ceiling panels"
+      "https://images.unsplash.com/photo-1581539250439-c96689b516dd?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1571055107559-3e67626fa8be?w=800&h=600&fit=crop"
     ],
     pricing: [
       { project: "Office Ceiling", price: "₹82/sq ft" },
@@ -237,7 +237,7 @@ export const products = [
     color: "Premium Oak",
     price: 120,
     sqFeetPrice: "₹120/sq ft",
-    image: "Designer false ceiling with integrated LED lighting",
+    image: "https://images.unsplash.com/photo-1571055107734-b2deaa729b0d?w=800&h=600&fit=crop",
     tags: ["ceiling", "designer", "premium"],
     description: "Elegant designer false ceiling with integrated lighting solutions for modern luxury spaces.",
     features: [
@@ -248,9 +248,9 @@ export const products = [
       "Waterproof coating"
     ],
     gallery: [
-      "Designer ceiling in luxury bedroom",
-      "LED integrated ceiling design",
-      "Premium wood finish ceiling"
+      "https://images.unsplash.com/photo-1571055107734-b2deaa729b0d?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1581539250439-c96689b516dd?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop"
     ],
     pricing: [
       { project: "Luxury Home", price: "₹115/sq ft" },
