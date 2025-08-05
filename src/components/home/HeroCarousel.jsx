@@ -10,38 +10,45 @@ const HeroCarousel = () => {
   const carouselImages = [
     {
       image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
-      title: "Premium WPC Kitchen Solutions",
+      title: "Premium WPC/UPVC Kitchen Solutions",
       subtitle: "Transform your kitchen with our waterproof, durable WPC modular designs",
       cta: "Explore Kitchens",
-      link: "/products"
+      link: "/Products"
     },
     {
       image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
-      title: "Luxury WPC Bedroom Wardrobes",
+      title: "Luxury WPC/UPVC Bedroom Wardrobes",
       subtitle: "Create stunning bedrooms with our eco-friendly WPC storage solutions",
       cta: "View Bedrooms",
-      link: "/products"
+      link: "/Products"
     },
     {
       image: "https://images.unsplash.com/photo-1497366216548-37526070297c",
-      title: "Modern WPC Office Interiors",
+      title: "Modern WPC/UPVC Office Interiors",
       subtitle: "Professional workspace solutions with sustainable WPC materials",
       cta: "Office Solutions",
+      link: "/Products"
+    },
+    {
+      image: "https://images.unsplash.com/photo-1545041454-6f53b06c6ed2",
+      title: "Innovative WPC/UPVC Ceiling Designs",
+      subtitle: "Acoustic and aesthetic ceiling solutions for every space",
+      cta: "Ceiling Options",
       link: "/products"
     },
     {
       image: "https://images.unsplash.com/photo-1545041454-6f53b06c6ed2",
-      title: "Innovative WPC Ceiling Designs",
+      title: "Innovative WPC/UPVC Ceiling Designs",
       subtitle: "Acoustic and aesthetic ceiling solutions for every space",
       cta: "Ceiling Options",
-      link: "/ceiling"
+      link: "/products"
     }
   ];
 
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % carouselImages.length);
-    }, 6000);
+    }, 4000);
     return () => clearInterval(timer);
   }, [carouselImages.length]);
 
@@ -80,9 +87,7 @@ const HeroCarousel = () => {
                       transition={{ duration: 0.8 }}
                       className="mb-6"
                     >
-                      <span className="inline-block px-4 py-2 product-tag text-white text-sm font-semibold rounded-full mb-4">
-                        Premium WPC Solutions
-                      </span>
+                     
                     </motion.div>
                     
                     <motion.h1
@@ -118,7 +123,7 @@ const HeroCarousel = () => {
                         </Button>
                       </Link>
                       
-                      <a href="tel:+919999999999">
+                      <a href="tel:+918114468410">
                         <Button 
                           size="lg" 
                           variant="outline" 
@@ -146,7 +151,7 @@ const HeroCarousel = () => {
                       </div>
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-amber-400 rounded-full"></div>
-                        <span className="text-sm">20+ Years Experience</span>
+                        <span className="text-sm">7+ Years Experience</span>
                       </div>
                     </motion.div>
                   </div>
@@ -158,21 +163,21 @@ const HeroCarousel = () => {
       </div>
 
       {/* Navigation Arrows */}
-      <button
+      {/* <button
         onClick={prevSlide}
         className="absolute left-6 top-1/2 transform -translate-y-1/2 bg-white/20 hover:bg-white/30 text-white p-3 rounded-full transition-all duration-300 backdrop-blur-sm"
         aria-label="Previous slide"
       >
         <ChevronLeft size={24} />
-      </button>
+      </button> */}
       
-      <button
+      {/* <button
         onClick={nextSlide}
         className="absolute right-6 top-1/2 transform -translate-y-1/2 bg-white/20 hover:bg-white/30 text-white p-3 rounded-full transition-all duration-300 backdrop-blur-sm"
         aria-label="Next slide"
       >
         <ChevronRight size={24} />
-      </button>
+      </button> */}
 
       {/* Slide Indicators */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-3">

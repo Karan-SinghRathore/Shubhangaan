@@ -7,12 +7,12 @@ const FloatingActions = () => {
   const buttons = [
     {
       icon: <FaPhoneAlt size={18} />,
-      link: "tel:+919999999999",
+      link: "tel:+918114468410",
       bg: "bg-blue-700",
     },
     {
       icon: <FaWhatsapp size={18} />,
-      link: "https://wa.me/919999999999",
+      link: "https://wa.me/918114468410",
       bg: "bg-green-500",
     },
     {

@@ -16,32 +16,32 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: "What is WPC and why is it better than traditional materials?",
-      answer: "WPC (Wood Plastic Composite) is an eco-friendly material made from recycled wood fibers and plastic. It's 100% waterproof, termite-resistant, and requires minimal maintenance compared to traditional wood or plywood."
+      question: "What is WPC/UPVC and why is it better than traditional materials?",
+      answer: "WPC/UPVC (Wood Plastic Composite)/ uPvc(Unplasticized Polyvinyl Chloride) is an eco-friendly material made from recycled wood fibers and plastic. It's 100% waterproof, termite-resistant, and requires minimal maintenance compared to traditional wood or plywood."
     },
     {
       question: "How long does a modular kitchen installation take?",
       answer: "Typically, a modular kitchen installation takes 10-15 days from measurement to completion. This includes design finalization, manufacturing, and professional installation by our expert team."
     },
     {
-      question: "Do you provide warranty on WPC products?",
-      answer: "Yes! We provide up to 10 years warranty on our WPC kitchen cabinets, 7 years on wall panels, and 5 years on ceiling solutions. Our warranty covers manufacturing defects and structural integrity."
+      question: "Do you provide warranty on WPC/UPVC products?",
+      answer: "Yes! We provide up to 10 years warranty on our WPC/UPVC kitchen cabinets, 7 years on wall panels, and 5 years on ceiling solutions. Our warranty covers manufacturing defects and structural integrity."
     },
     {
-      question: "Can WPC materials be customized in different colors?",
-      answer: "Absolutely! We offer WPC materials in 8+ color variants including Oak Brown, Teak Natural, Walnut Dark, and more. We can also create custom colors for large projects."
+      question: "Can WPC/UPVC materials be customized in different colors?",
+      answer: "Absolutely! We offer WPC/UPVC materials in 8+ color variants including Oak Brown, Teak Natural, Walnut Dark, and more. We can also create custom colors for large projects."
     },
     {
       question: "What is the cost comparison with traditional materials?",
-      answer: "While WPC has a higher upfront cost, it saves money long-term due to zero maintenance, no termite treatment, and longer lifespan. Total cost of ownership is typically 30-40% lower than traditional materials."
+      answer: "While WPC/UPVC has a higher upfront cost, it saves money long-term due to zero maintenance, no termite treatment, and longer lifespan. Total cost of ownership is typically 30-40% lower than traditional materials."
     },
     {
       question: "Do you provide free design consultation?",
-      answer: "Yes! We provide free home visits, measurements, and 3D design consultations. Our experts will help you choose the best WPC solutions for your space and budget."
+      answer: "Yes! We provide free home visits, measurements, and 3D design consultations. Our experts will help you choose the best WPC/UPVC solutions for your space and budget."
     },
     {
-      question: "Are WPC materials safe for kitchen use?",
-      answer: "WPC materials are completely food-safe and non-toxic. They're also heat-resistant, moisture-proof, and easy to clean, making them ideal for kitchen environments."
+      question: "Are WPC/UPVC materials safe for kitchen use?",
+      answer: "WPC/UPVC materials are completely food-safe and non-toxic. They're also heat-resistant, moisture-proof, and easy to clean, making them ideal for kitchen environments."
     },
     {
       question: "Do you handle project management and installation?",
@@ -59,7 +59,7 @@ const FAQ = () => {
           className="text-center mb-12"
         >
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
-          <p className="text-xl text-gray-600">Get answers to common questions about our WPC solutions</p>
+          <p className="text-xl text-gray-600">Get answers to common questions about our WPC/UPVC solutions</p>
         </motion.div>
 
         <div className="space-y-4">
@@ -109,7 +109,7 @@ const FAQ = () => {
         >
           <p className="text-gray-600 mb-4">Still have questions?</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:+919999999999" className="wpc-btn-primary px-6 py-3 rounded-lg text-white font-semibold">
+            <a href="tel:+918114468410" className="wpc-btn-primary px-6 py-3 rounded-lg text-white font-semibold">
               Call Us Now
             </a>
             <a href="mailto:shubhaanganhd@gmail.com" className="wpc-btn-secondary px-6 py-3 rounded-lg text-white font-semibold">

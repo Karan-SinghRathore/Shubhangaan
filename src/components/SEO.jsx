@@ -2,9 +2,9 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
 const SEO = ({
-  title = 'ShubhAangan - Premium WPC Solutions',
-  description = 'Transform your space with premium WPC modular kitchen, bedroom, office, and ceiling solutions. 20+ years of experience in sustainable, waterproof, and durable WPC furniture.',
-  keywords = 'WPC furniture, modular kitchen, bedroom furniture, office furniture, ceiling panels, waterproof furniture, eco-friendly furniture, ShubhAangan',
+  title = 'ShubhAangan - Premium WPC/UPVC Solutions',
+  description = 'Transform your space with premium WPC/UPVC modular kitchen, bedroom, office, and ceiling solutions. 7+ years of experience in sustainable, waterproof, and durable WPC/UPVC furniture.',
+  keywords = 'WPC/UPVC furniture, modular kitchen, bedroom furniture, office furniture, ceiling panels, waterproof furniture, eco-friendly furniture, ShubhAangan',
   canonicalUrl,
   ogImage = 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7',
   structuredData,
@@ -14,7 +14,7 @@ const SEO = ({
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "ShubhAangan",
-    "description": "Premium WPC solutions for modular kitchen, bedroom, office, and ceiling",
+    "description": "Premium WPC/UPVC solutions for modular kitchen, bedroom, office, and ceiling",
     "url": "https://shubhaangan.com",
     "telephone": "+91-00000-00000",
     "email": "shubhaanganhd@gmail.com",
@@ -46,14 +46,14 @@ const SEO = ({
     },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "name": "WPC Solutions",
+      "name": "WPC/UPVC Solutions",
       "itemListElement": [
         {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
             "name": "Modular Kitchen Design",
-            "description": "Custom WPC modular kitchen solutions"
+            "description": "Custom WPC/UPVC modular kitchen solutions"
           }
         },
         {
@@ -61,7 +61,7 @@ const SEO = ({
           "itemOffered": {
             "@type": "Service",
             "name": "Bedroom Furniture",
-            "description": "WPC bedroom wardrobes and furniture"
+            "description": "WPC/UPVC bedroom wardrobes and furniture"
           }
         },
         {
@@ -69,7 +69,7 @@ const SEO = ({
           "itemOffered": {
             "@type": "Service",
             "name": "Office Furniture",
-            "description": "Professional WPC office furniture solutions"
+            "description": "Professional WPC/UPVC office furniture solutions"
           }
         },
         {
@@ -77,7 +77,7 @@ const SEO = ({
           "itemOffered": {
             "@type": "Service",
             "name": "Ceiling Solutions",
-            "description": "Acoustic and designer WPC ceiling panels"
+            "description": "Acoustic and designer WPC/UPVC ceiling panels"
           }
         }
       ]
@@ -127,7 +127,7 @@ const SEO = ({
       <meta name="ICBM" content="26.9124, 75.7873" />
       
       {/* Business/Local SEO */}
-      <meta name="classification" content="WPC Furniture, Interior Design" />
+      <meta name="classification" content="WPC/UPVC Furniture, Interior Design" />
       <meta name="category" content="Furniture, Interior Design, Home Improvement" />
       <meta name="coverage" content="Worldwide" />
       <meta name="distribution" content="Global" />

@@ -18,20 +18,20 @@ const Navbar = () => {
   return (
     <>
       {/* Top Contact Bar */}
-      <div className="wpc-gradient text-white py-2 px-4">
+      <div className="wpc-gradient text-white py-2 px-4 ">
         <div className="max-w-7xl mx-auto flex justify-between items-center text-sm">
           <div className="flex items-center space-x-6">
             <div className="flex items-center space-x-2">
               <Phone size={14} />
               <span>+91 81144 68410</span>
             </div>
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-2 hidden md:flex">
               <Mail size={14} />
               <span>shubhaanganhd@gmail.com</span>
             </div>
           </div>
           <div className="hidden md:block">
-            <span>Mon-Fri: 9AM-6PM | Sat: 10AM-4PM</span>
+            <span>Open 24×7</span>
           </div>
         </div>
       </div>
@@ -52,7 +52,7 @@ const Navbar = () => {
               </div>
               <div className="flex flex-col">
                 <span className="text-2xl font-bold heading-primary">शुभ आंगन</span>
-                <span className="text-xs text-small" style={{ color: 'hsl(var(--wpc-warm))' }}>Premium WPC Solutions</span>
+                <span className="text-xs text-small" style={{ color: 'hsl(var(--wpc-warm))' }}>हर कोने में बसाए नई कहानी</span>
               </div>
             </Link>
 
@@ -74,14 +74,17 @@ const Navbar = () => {
                   }}
                 >
                   {item.name}
-                  {location.pathname === item.path && (
+                  {/* {location.pathname === item.path && (
                     <motion.div
                       layoutId="underline"
                       initial={false}
-                      transition={{ type: "spring", stiffness: 500, damping: 30 }}
-                      className="absolute bottom-0 left-0 right-0 h-0.5 wpc-gradient rounded-full"
+                      transition={{ type: "spring", stiffness: 400, damping: 30 }}
+                      // className="absolute bottom-0 left-0 right-0 h-0.5 wpc-gradient rounded-full"
+                      className="absolute bottom-0 left-1/2 -translate-x-1/2 h-0.5 w-8 bg-[hsl(var(--wpc-warm))] rounded-full"
                     />
-                  )}
+                  )} */}
+                  <span className="absolute bottom-0 left-1/2 -translate-x-1/2 h-0.5 w-8 bg-[hsl(var(--wpc-warm))] rounded-full" />
+
                 </Link>
               ))}
               

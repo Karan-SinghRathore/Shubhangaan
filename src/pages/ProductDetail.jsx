@@ -196,7 +196,7 @@ const ProductDetail = () => {
                   </Button>
                 </Link>
                 
-                <a href="tel:+919999999999" className="block">
+                <a href="tel:+918114468410" className="block">
                   <Button size="lg" variant="outline" className="w-full py-4 text-lg font-semibold border-amber-300 text-amber-800 hover:bg-amber-50 flex items-center justify-center gap-2">
                     <Phone size={20} />
                     Call for Instant Quote

@@ -19,7 +19,7 @@ const FeaturedProducts = () => {
             transition={{ duration: 0.6 }}
             className="text-4xl md:text-5xl font-bold heading-primary mb-6"
           >
-            Featured WPC Products
+            Featured Products
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 30 }}

@@ -92,7 +92,7 @@ const QuickQuote = () => {
             </div>
           </div>
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Get Instant Quote</h2>
-          <p className="text-xl text-gray-600">Fill out the form below and get an estimated cost for your WPC project</p>
+          <p className="text-xl text-gray-600">Fill out the form below and get an estimated cost for your WPC/UPVC project</p>
         </motion.div>
 
         <motion.div

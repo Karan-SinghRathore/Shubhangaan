@@ -14,7 +14,7 @@ const TrustBadges = () => {
       icon: <Shield size={32} />,
       title: "10 Year Warranty",
       subtitle: "Product Guarantee",
-      description: "Comprehensive warranty on all WPC products"
+      description: "Comprehensive warranty on all WPC/UPVC products"
     },
     {
       icon: <Users size={32} />,
@@ -24,7 +24,7 @@ const TrustBadges = () => {
     },
     {
       icon: <Calendar size={32} />,
-      title: "20+ Years Experience",
+      title: "7+ Years Experience",
       subtitle: "Industry Expertise",
       description: "Two decades of craftsmanship and innovation"
     },
@@ -127,7 +127,7 @@ const TrustBadges = () => {
               <span className="font-semibold text-gray-700">Furniture Association</span>
             </div>
             <div className="bg-gray-100 px-6 py-3 rounded-lg">
-              <span className="font-semibold text-gray-700">WPC Council India</span>
+              <span className="font-semibold text-gray-700">WPC/UPVC Council India</span>
             </div>
           </div>
         </motion.div>

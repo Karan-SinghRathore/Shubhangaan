@@ -8,12 +8,12 @@ const StatsCounter = () => {
 
   useEffect(() => {
     const customerTimer = setInterval(() => {
-      setCustomerCount(prev => prev < 2500 ? prev + 50 : 2500);
-    }, 50);
+      setCustomerCount(prev => prev < 100 ? prev + 2 : 100);
+    }, 30);
 
     const projectTimer = setInterval(() => {
-      setProjectCount(prev => prev < 850 ? prev + 17 : 850);
-    }, 50);
+      setProjectCount(prev => prev < 90 ? prev + 2 : 90);
+    }, 30);
 
     return () => {
       clearInterval(customerTimer);

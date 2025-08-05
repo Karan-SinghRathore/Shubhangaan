@@ -91,7 +91,7 @@ const Contact = () => {
       icon: <Phone size={24} />,
       title: "Call Us",
       details: "+91 81144 68410",
-      description: "Mon-Fri 9AM-6PM"
+      description: "Open 24×7"
     },
     {
       icon: <MapPin size={24} />,
@@ -102,7 +102,7 @@ const Contact = () => {
     {
       icon: <Clock size={24} />,
       title: "Business Hours",
-      details: "Mon-Fri: 9AM-6PM, Sat: 10AM-4PM",
+      details: "Open 24×7",
       description: "Closed on Sundays"
     }
   ];
@@ -280,7 +280,7 @@ const Contact = () => {
                         <div className="flex items-center justify-between">
                           <div>
                             <p className="font-semibold text-sm" style={{ color: 'hsl(var(--wpc-text-primary))' }}>ShubhAangan WPC Showroom</p>
-                            <p className="text-xs text-gray-600">Open: Mon-Fri 9AM-6PM, Sat 10AM-4PM</p>
+                            <p className="text-xs text-gray-600">Open 24×7</p>
                           </div>
                           <a
                             href="https://maps.app.goo.gl/JARb6uRcUj4hTenQ9"

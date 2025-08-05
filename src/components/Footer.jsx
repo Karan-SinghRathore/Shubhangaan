@@ -20,11 +20,11 @@ const Footer = () => {
               </div>
               <div className="flex flex-col">
                 <span className="font-bold text-xl" style={{ color: 'hsl(var(--wpc-text-primary))' }}>शुभ आंगन</span>
-                <span className="text-xs text-small" style={{ color: 'hsl(var(--wpc-warm))' }}>Premium WPC Solutions</span>
+                <span className="text-xs text-small" style={{ color: 'hsl(var(--wpc-warm))' }}>हर कोने में बसाए नई कहानी</span>
               </div>
             </div>
             <p className="text-small leading-relaxed" style={{ color: 'hsl(var(--wpc-text-secondary))' }}>
-              Creating beautiful and functional WPC modular solutions for your kitchen, bedroom, office, and ceiling needs. 20+ years of trusted craftsmanship.
+              Creating beautiful and functional WPC/UPVC modular solutions for your kitchen, bedroom, office, and ceiling needs. 7+ years of trusted craftsmanship.
             </p>
           </div>
 
@@ -65,7 +65,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Clock size={16} style={{ color: 'hsl(var(--wpc-warm))' }} />
-                <span className="text-small" style={{ color: 'hsl(var(--wpc-text-secondary))' }}>Mon-Fri: 9AM-6PM</span>
+                <span className="text-small" style={{ color: 'hsl(var(--wpc-text-secondary))' }}>Open 24×7</span>
               </div>
             </div>
           </div>
@@ -87,7 +87,7 @@ const Footer = () => {
         <div className="border-t mt-8 pt-8" style={{ borderColor: 'hsl(var(--wpc-accent) / 0.3)' }}>
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-small mb-4 md:mb-0" style={{ color: 'hsl(var(--wpc-text-secondary))' }}>
-              © 2025 ShubhAangan. All rights reserved. | Premium WPC Solutions
+              © 2025 ShubhAangan. All rights reserved. | हर कोने में बसाए नई कहानी
             </p>
             <div className="flex space-x-4">
               <a href="#" className="transition-colors duration-200 hover:text-wpc-warm" style={{ color: 'hsl(var(--wpc-warm))' }}>

@@ -292,7 +292,7 @@ const Gallery = () => {
                       <p className="text-body mb-6">Get a free consultation and quote for your {selectedCategoryData.name.toLowerCase()} project.</p>
                       
                       <div className="space-y-3">
-                        <a href="tel:+919999999999" className="block">
+                        <a href="tel:+918114468410" className="block">
                           <Button className="w-full wpc-btn-primary flex items-center justify-center gap-2">
                             <Phone size={18} />
                             Call Now

@@ -261,7 +261,7 @@ const GalleryCategory = () => {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="tel:+919999999999">
+                <a href="tel:+918114468410">
                   <Button size="lg" className="wpc-btn-secondary px-8 py-4 text-lg font-semibold flex items-center gap-2">
                     <Phone size={20} />
                     Get Quote Now
@@ -492,7 +492,7 @@ const GalleryCategory = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+919999999999">
+              <a href="tel:+918114468410">
                 <Button size="lg" className="wpc-btn-secondary px-8 py-4 text-lg font-semibold flex items-center gap-2">
                   <Phone size={20} />
                   Call Now for Free Quote
