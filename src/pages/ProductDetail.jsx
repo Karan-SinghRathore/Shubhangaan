@@ -45,12 +45,7 @@ const ProductDetail = () => {
     );
   }
 
-  const productImages = [
-    'https://images.unsplash.com/photo-1635865165118-917ed9e20936',
-    'https://images.unsplash.com/photo-1595872018818-97555653a011',
-    'https://images.unsplash.com/photo-1598300042247-d088f8ab3a91',
-    'https://images.unsplash.com/photo-1586023492125-27b2c045efd7'
-  ];
+  const productImages = product.gallery || [product.image];
 
   // Auto-playing carousel for colors - continuous scrolling
   useEffect(() => {
