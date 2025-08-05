@@ -9,7 +9,7 @@ import Home from '@/pages/Home.jsx';
 // Lazy load other pages
 const Products = lazy(() => import('@/pages/Products.jsx'));
 const ProductDetail = lazy(() => import('@/pages/ProductDetail.jsx'));
-const Ceiling = lazy(() => import('@/pages/Ceiling.jsx'));
+// const Ceiling = lazy(() => import('@/pages/Ceiling.jsx'));
 const Gallery = lazy(() => import('@/pages/Gallery.jsx'));
 const GalleryCategory = lazy(() => import('@/pages/GalleryCategory.jsx'));
 const About = lazy(() => import('@/pages/About.jsx'));
@@ -45,7 +45,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/products" element={<Products />} />
               <Route path="/product/:id" element={<ProductDetail />} />
-              <Route path="/ceiling" element={<Ceiling />} />
+              {/* <Route path="/ceiling" element={<Ceiling />} /> */}
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/gallery/:categoryId" element={<GalleryCategory />} />
               <Route path="/about" element={<About />} />
