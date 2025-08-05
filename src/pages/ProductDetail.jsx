@@ -328,7 +328,7 @@ const ProductDetail = () => {
                     <img
                       className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
                       alt={relatedProduct.name}
-                      src="https://images.unsplash.com/photo-1635865165118-917ed9e20936"
+                      src={relatedProduct.image}
                       loading="lazy"
                     />
                     <div className="absolute top-3 left-3">
