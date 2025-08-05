@@ -385,10 +385,10 @@ const Products = () => {
                   <Card className="card-hover overflow-hidden">
                     <div className="flex">
                       <div className="w-48 h-32 flex-shrink-0">
-                        <img  
+                        <img
                           className="w-full h-full object-cover"
                           alt={product.name}
-                          src="https://images.unsplash.com/photo-1635865165118-917ed9e20936"
+                          src={product.image}
                           loading="lazy"
                         />
                       </div>
