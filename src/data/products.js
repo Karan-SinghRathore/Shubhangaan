@@ -6,7 +6,7 @@ export const products = [
     color: "White Pearl",
     price: 45,
     sqFeetPrice: "₹45/sq ft",
-    image: "Modern white glossy ceramic Sheets with pearl finish",
+    image: "https://images.unsplash.com/photo-1635865165118-917ed9e20936?w=800&h=600&fit=crop",
     tags: ["glossy", "premium"],
     description: "Premium quality glossy Sheets with a stunning pearl finish that adds elegance to any space.",
     features: [
