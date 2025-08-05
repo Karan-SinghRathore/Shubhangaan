@@ -298,10 +298,10 @@ const Products = () => {
                 >
                   <Card className="card-hover overflow-hidden group h-full">
                     <div className="relative">
-                      <img  
+                      <img
                         className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
                         alt={product.name}
-                        src="https://images.unsplash.com/photo-1635865165118-917ed9e20936"
+                        src={product.image}
                         loading="lazy"
                       />
                       
